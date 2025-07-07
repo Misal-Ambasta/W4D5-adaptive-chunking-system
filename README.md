@@ -313,26 +313,6 @@ def store_chunks(chunks, metadata):
     pinecone.upsert(vectors, metadata)
 ```
 
-## Testing
-
-### Unit Tests
-```bash
-# Install pytest
-pip install pytest
-
-# Run tests
-pytest test_chunking.py -v
-```
-
-### Integration Tests
-```bash
-# Test API endpoints
-pytest test_api.py -v
-
-# Test chunking strategies
-pytest test_strategies.py -v
-```
-
 ## Support
 
 ### Documentation
